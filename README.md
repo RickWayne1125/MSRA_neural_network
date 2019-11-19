@@ -5,7 +5,7 @@ Code based on `https://github.com/microsoft/ai-edu/tree/master/B-%E6%95%99%E5%AD
 （感谢老师的教导）
 
 - 在设置超参时，先试探性将学习率调至0.001，将最大迭代次数适当调高至2000，batchsize设置为5，eps保持1e-5
-  经过多次调整最终发现最佳学习率为0.01
+  经过多次调整最终s设置参数为eta=0.01, max_epoch=2000, batch_size=40, eps = 1e-5
 
 - 其中，原程序中
 ```
