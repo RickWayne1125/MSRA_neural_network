@@ -4,7 +4,7 @@
 Code based on `https://github.com/microsoft/ai-edu/tree/master/B-%E6%95%99%E5%AD%A6%E6%A1%88%E4%BE%8B%E4%B8%8E%E5%AE%9E%E8%B7%B5/B6-%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86%E7%AE%80%E6%98%8E%E6%95%99%E7%A8%8B/SourceCode/ch05-MultiVariableLinearRegression`
 （感谢老师的教导）
 
-- 在设置超参时，先试探性将学习率调至0.001，将最大迭代次数适当调高至2000，batchsize设置为5，eps保持1e-5
+- 在设置超参时，先试探性将学习率调至0.1，将最大迭代次数适当调高至2000，batchsize设置为5，eps保持1e-5
   经过多次调整最终s设置参数为eta=0.01, max_epoch=2000, batch_size=40, eps = 1e-5
 
 - 其中，原程序中
